@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 50px; /* Adiciona um espaçamento no topo da página */
+}
+
+
+input[type="text"] {
+    text-align: center;
+    border: 1px solid #ccc; /* Adiciona uma borda mais suave ao campo de entrada */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao campo de entrada */
+    padding: 10px; /* Aumenta o preenchimento do campo de entrada */
+    width: 300px; /* Define uma largura fixa para o campo de entrada */
+    margin-bottom: 10px; /* Adiciona um espaçamento na parte inferior do campo de entrada */
+}
+
+button {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adiciona uma transição suave de cor de fundo */
+}
+
+button:hover {
+    background-color: #0056b3; /* Altera a cor de fundo ao passar o mouse sobre o botão */
+}
+
+ul {
+    margin-top: 20px;
+    padding-left: 0; /* Remove o preenchimento padrão do lado esquerdo da lista */
+}
+
+li {
+    margin-bottom: 10px; /* Adiciona um espaçamento na parte inferior de cada item da lista */
+}
